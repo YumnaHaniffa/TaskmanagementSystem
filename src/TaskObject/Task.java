@@ -8,7 +8,7 @@ public class Task {
 
 
     //1. Attributes of the Tasks(instance variable)
-    //private- to avoid direct modification from out of the class
+    //Private- to avoid direct modification from out of the class
     private final int taskId;
     private String taskTitle;
     private String taskPriority;

@@ -4,7 +4,7 @@ import TaskObject.Task;
 //To perform undo operations
 public class customStack {
 
-        private Node top;                                        // points to the top of the stack
+        private Node top;                                        // Points to the top of the stack
 
         public customStack() {
             this.top = null;                                    //initially the stack is empty

@@ -15,7 +15,7 @@ public class LinkedListOperator {
         return priorityOrder.length;                                          // place the not found priority at the end of a sorted list
     }
     public void merge(Task [] tasksToBeSorted, int l, int m, int r, String[] priorityOrder){
-        //calculate the size
+        //Calculate the size
         int size1 = m-l+1;
         int size2 = r-m;
 

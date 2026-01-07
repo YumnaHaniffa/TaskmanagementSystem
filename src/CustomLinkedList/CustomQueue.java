@@ -1,6 +1,6 @@
 package CustomLinkedList;
 import TaskObject.Task;
-//To perform task processing operations
+//To perform task processing operations.
 public class CustomQueue {
 
     public Node front;         // Index of the front element, starts from the front

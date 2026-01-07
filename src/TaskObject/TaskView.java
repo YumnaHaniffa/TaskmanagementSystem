@@ -1,7 +1,7 @@
 package TaskObject;
 
 import java.util.Scanner;
-//To display task details
+//To display task details.
 public class TaskView {
 
     public void displayTaskDetails(Task task) {

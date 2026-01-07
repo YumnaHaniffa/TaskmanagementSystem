@@ -16,7 +16,7 @@ public class MapOperator {
             this.taskCount = 0;
         }
 
-        //add key-value pair
+        //Add key-value pair
         public void addTaskToMap(Task task){
             if(taskCount < values.length) {
                 values[taskCount] = task;

@@ -11,7 +11,7 @@ public class LinkedList {
 
     public void addTaskSorted(Task task,LinkedListOperator listOperator) {
 
-        if (task == null || listOperator == null) {                       //handle if task or listOperator is null
+        if (task == null || listOperator == null) {                       //Handle if task or listOperator is null
             System.out.println("Error: task or listOperator is null");
             return;
         }

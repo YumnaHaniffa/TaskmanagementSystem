@@ -1,7 +1,7 @@
 package CustomLinkedList;
 
 import TaskObject.Task;
-//to use an instance of the task class
+//To use an instance of the task class
 public class Node {
 
    public Task task;                              //The task stored in the node
