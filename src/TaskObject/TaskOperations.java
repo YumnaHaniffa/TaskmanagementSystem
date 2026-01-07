@@ -10,7 +10,7 @@ public  class TaskOperations {
     CustomQueue highPriorityQueue = new CustomQueue();
     CustomQueue mediumPriorityQueue = new CustomQueue();
     CustomQueue lowPriorityQueue = new CustomQueue();
-    customStack stack = new customStack();
+
 
     //1.add task
     public Task addTask(Scanner input, LinkedList taskList) {
@@ -87,8 +87,7 @@ public  class TaskOperations {
                 }
             }
         }
-        else{
-        }
+
         System.out.println("\nTask Added");
 
         return task;
@@ -499,7 +498,7 @@ public  class TaskOperations {
     }
 
 
-//task management sysytem
+//task management system
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

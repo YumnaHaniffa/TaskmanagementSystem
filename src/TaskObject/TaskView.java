@@ -20,7 +20,7 @@ public class TaskView {
             }
         }
         if (!found) {
-            System.out.println("No priority tasks to dispaly");
+            System.out.println("No priority tasks to display");
         }
     }
 

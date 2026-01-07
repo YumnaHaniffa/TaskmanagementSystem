@@ -13,11 +13,4 @@ public class Node {
         this.next = null;                         // set the next node as null
     }
 
-    public Node getNext() {
-        return next;
-    }
-    public Task getTask() {
-        return task;
-    }
-
 }

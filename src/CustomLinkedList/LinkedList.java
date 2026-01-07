@@ -9,10 +9,6 @@ public class LinkedList {
     private Node tail;                                                    //the last element of the list
     public final String [] priorityOrder = {"High", "Medium", "Low"};     //the  list of priorities
 
-    public Node getHead() {
-        return head;
-    }
-
     public void addTaskSorted(Task task,LinkedListOperator listOperator) {
 
         if (task == null || listOperator == null) {                       //handle if task or listOperator is null

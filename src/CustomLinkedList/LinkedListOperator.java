@@ -11,7 +11,7 @@ public class LinkedListOperator {
                 return i;                                                      //then return 1
             }
         }
-        //place not found priority at the end
+        //Place not found priority at the end
         return priorityOrder.length;                                          // place the not found priority at the end of a sorted list
     }
     public void merge(Task [] tasksToBeSorted, int l, int m, int r, String[] priorityOrder){

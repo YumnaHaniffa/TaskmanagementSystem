@@ -1,7 +1,7 @@
 package CustomMap;
 
 import TaskObject.Task;
-//to perform linear search
+//To perform linear search
 public class MapOperator {
 
         public int[] keys;                        //takID that will be the key

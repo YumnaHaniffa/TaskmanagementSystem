@@ -9,7 +9,7 @@ public class customStack {
         public customStack() {
             this.top = null;                                    //initially the stack is empty
         }
-        //the method checking whether it is full is not called
+        //The method checking whether it is full is not called
         public void push(Task task) {
             Node newNode = new Node(task);                      //newNode object is created
             newNode.next = top;                                 //newNode points to the current top which is null(it is na exception , this is only during the first time we create a node)

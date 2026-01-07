@@ -34,10 +34,6 @@ public class Task {
         return taskTitle;
 
     }
-    //check if title is meaningful
-    public boolean isTitleMeaningful(){
-        return taskTitle != null && !taskTitle.trim().isEmpty();
-    }
 
     public void setTaskPriority(String taskPriority) {       //assigning the parameter
         this.taskPriority = taskPriority;
@@ -74,10 +70,6 @@ public class Task {
 
     public int getTaskId() {
         return taskId;
-    }
-
-    public boolean isValidId() {
-        return taskId > 0;
     }
 
     public void addDependency(int dependencyId) {
